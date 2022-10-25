@@ -115,6 +115,9 @@ form{
     text-align: center;
     color: #fff;
     padding: 16px;
+    display: block;
+    width: 400px;
+    font-size: 20px;
 }
 
 legend{
@@ -123,7 +126,29 @@ legend{
     font-size: 40px;
 }
 
-button{
-    margin: 20px;
-    padding: 10px;
+#luffyimg{
+    position: absolute;
+    right: 750px;
+    top: 1630px;
+}
+
+form img{
+    width: auto;
+    height: 200px;
+}
+
+h3{ 
+    padding: 16px;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 16px;
+}
+
+input{
+    cursor: pointer;
+    border: #fff;
+    background-color: silver;
+    display: block;
+    margin-left: 100px;
 }
